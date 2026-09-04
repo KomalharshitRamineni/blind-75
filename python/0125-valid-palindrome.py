@@ -1,5 +1,5 @@
 """
-125 · Valid Palindrome · https://leetcode.com/problems/valid-palindrome/
+125. Valid Palindrome · https://leetcode.com/problems/valid-palindrome/
 2026-09-01 · fail · 30m · skeleton: tp-opposite
 O(n) time / O(1) space — single pass, two pointers converge from the ends
 """

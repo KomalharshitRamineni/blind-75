@@ -23,5 +23,5 @@ Line 3: the complexity line, copied from the `log.md` write-up.
 **Do not commit solutions to a live online assessment or take-home** until that process is
 over — regardless of repo visibility.
 
-The full write-up (Trigger / Crux / First attempt / Complexity / Skeleton) lives in the
+The full write-up (Cue / Key insight / What broke / Complexity / Template) lives in the
 private vault's `log.md`, not here.
