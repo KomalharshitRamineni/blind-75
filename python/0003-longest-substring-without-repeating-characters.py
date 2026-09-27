@@ -1,5 +1,5 @@
 """
-11. Longest Substring Without Repeating Characters · https://leetcode.com/problems/longest-substring-without-repeating-characters/
+3. Longest Substring Without Repeating Characters · https://leetcode.com/problems/longest-substring-without-repeating-characters/
 2026-09-07 · fail · 30m · skeleton: sliding-window
 O(n) time / O(n) space — Sliding window makes sense for contiguous problems, follow through with pointer implementation as opposed to half half with for loops, can use any to store seen here for constant check up time
 """

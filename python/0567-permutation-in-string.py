@@ -1,5 +1,5 @@
 """
-567 · Permutation In String · https://leetcode.com/problems/permutation-in-string/
+567. Permutation In String · https://leetcode.com/problems/permutation-in-string/
 2026-09-23 · fail · 30m · skeleton: sliding-window
 O(n) time / O(1) space — Sliding window to to find continguous substring to satisfy value but over a fixed window
 """
