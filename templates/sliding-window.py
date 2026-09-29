@@ -6,37 +6,37 @@ Trigger: longest or shortest contiguous subarray/substring satisfying a constrai
 
 def sliding_window(arr):
 
-def foo():
-	return True
+	def foo():
+		return True
 
 
-l, r = 0, 0
-result = None
+	l, r = 0, 0
+	result = None
 
-while r < len(arr):
+	while r < len(arr):
 
-	# We ususally want to check a condtion or build up some sort of
-	# data structure as we go along
+		# We ususally want to check a condtion or build up some sort of
+		# data structure as we go along
 	
-	# Then we want to check our condition for the problem
+		# Then we want to check our condition for the problem
 
-	if foo():
+		if foo():
 	
-	#Update some sort of result variable
-		pass
+		#Update some sort of result variable
+			pass
 
-	else:
+		else:
 	
-		while not foo():
+			while not foo():
 		
-			#Condition to increase our left pointer
-			#Also remove from any data structure here and update result
+				#Condition to increase our left pointer
+				#Also remove from any data structure here and update result
 
-			l+=1
-			result = r + l
+				l+=1
+				result = r + l
 	
-	r+=1
-	#Consistently increment right pointer in sliding window
+		r+=1
+		#Consistently increment right pointer in sliding window
 
 
-return result
+	return result

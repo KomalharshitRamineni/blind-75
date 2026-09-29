@@ -13,13 +13,13 @@ def bs_lower_bound(arr):
 	def foo():
 		return None
 
-	while l < r:
+	while l <= r:
 	
 		mid = (l+r) // 2
 		res = min(arr[mid], res)
 
 		if foo():
-			r = mid
+			r = mid - 1
 		
 		else:
 			l = mid + 1
