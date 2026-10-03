@@ -1,5 +1,6 @@
 """
-206. Reverese Linked List · https://leetcode.com/problems/reverse-linked-list/description/
+206. Reverse Linked List · https://leetcode.com/problems/reverse-linked-list/
+2026-10-02 · hint · 22m · skeleton: ll-reverse
 O(n) time / O(1/n) space — Depending on recursive or iterative approach, careful of what links are adjusted recursively (what is present in call stack) iteratively what we store and change
 """
 

@@ -1,6 +1,6 @@
 """
 219. Contains Duplicate II · https://leetcode.com/problems/contains-duplicate-ii/
-2026-09-30 · clean ·28m · skeleton: sliding-window
+2026-09-30 · clean · 28m · skeleton: sliding-window
 O(n) time / O(n) space — grow and shrink window based on our condition
 """
 

@@ -1,5 +1,5 @@
 """
-167. Minimum Size Subarray Sum · https://leetcode.com/problems/minimum-size-subarray-sum/description/
+209. Minimum Size Subarray Sum · https://leetcode.com/problems/minimum-size-subarray-sum/
 2026-09-30 · fail · 30m · skeleton: sliding-window
 O(n) time / O(1) space — grow and shrink window based on our condition
 """

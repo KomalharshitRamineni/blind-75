@@ -6,22 +6,17 @@ Trigger: first index satisfying a monotone predicate · "minimum X such that fea
 
 
 def bs_lower_bound(arr):
+    left, right = 0, len(arr) - 1
 
-	l, r = 0, len(arr)-1
-	res = arr[0]
+    def foo():
+        return None
 
-	def foo():
-		return None
+    while left <= right:
+        mid = (left + right) // 2
 
-	while l <= r:
-	
-		mid = (l+r) // 2
-		res = min(arr[mid], res)
+        if foo():
+            right = mid - 1
+        else:
+            left = mid + 1
 
-		if foo():
-			r = mid - 1
-		
-		else:
-			l = mid + 1
-	
-	return res
+    return left
