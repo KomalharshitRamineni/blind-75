@@ -1,6 +1,6 @@
 """
 100. Same Tree · https://leetcode.com/problems/same-tree/
-2026-10-04 · clean ·25m · skeleton: tree-dfs
+2026-10-04 · clean · 25m · skeleton: tree-dfs
 O(n) time / O(h) space — Every node in tree is visited and call stack for deepest node is stored in memory
 """
 

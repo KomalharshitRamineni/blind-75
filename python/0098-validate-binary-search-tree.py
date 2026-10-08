@@ -1,6 +1,6 @@
 """
 98. Validate Binary Search Tree · https://leetcode.com/problems/validate-binary-search-tree/
-2026-10-06 · fail ·30m · skeleton: tree-dfs
+2026-10-06 · fail · 30m · skeleton: tree-dfs
 O(n) time / O(h) space — Every node in tree is visited and call stack for deepest node is stored in memory
 """
 

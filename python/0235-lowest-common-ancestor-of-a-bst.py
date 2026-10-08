@@ -1,6 +1,6 @@
 """
-325. Lowest Common Ancestor of a Binary Search Tree · https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
-2026-10-07 · fail ·30m · skeleton: tree-dfs
+235. Lowest Common Ancestor of a Binary Search Tree · https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+2026-10-07 · fail · 30m · skeleton: tree-dfs
 O(log(n)) time / O(1) space — Eliminating Half the search space at each point, resulting in logaritmic time complexity
 """
 class Solution:

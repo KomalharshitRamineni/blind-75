@@ -1,6 +1,6 @@
 """
 141. Linked List Cycle · https://leetcode.com/problems/linked-list-cycle/
-2026-10-04 · clean · 13 · skeleton: tp-fast-slow
+2026-10-04 · clean · 13m · skeleton: tp-fast-slow
 O(n) time / O(1) space — At any arbitrary point, gap between fast and slow is always closed by -1, resulting in O(n) time complexity
 """
 
