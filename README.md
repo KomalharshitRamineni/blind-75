@@ -6,7 +6,7 @@ on an expanding schedule against *neighbour* problems that share the skeleton.
 
 Conventions: [CONTRIBUTING.md](CONTRIBUTING.md) · Pattern templates: [templates/](templates/)
 
-**20 / 75 Blind 75 solved** · **8 neighbour problems** solved on the review ladder.
+**22 / 75 Blind 75 solved** · **8 neighbour problems** solved on the review ladder.
 
 | # | Problem | List | Solved | First pass | Skeleton | Complexity |
 |---|---|---|---|---|---|---|
@@ -28,13 +28,15 @@ Conventions: [CONTRIBUTING.md](CONTRIBUTING.md) · Pattern templates: [templates
 | 16 | [206. Reverse Linked List](python/0206-reverse-linked-list.py) | Blind 75 | 2026-10-02 | hint | `ll-reverse` | O(n) time / O(1/n) space — Depending on recursive or iterative approach, careful of what links are adjusted recursively (what is present in call stack) iteratively what we store and change |
 | 17 | [208. Implement Trie](python/0208-implement-trie.py) | Blind 75 | 2026-10-10 | clean | `trie` | O(n) time / O(t) space — O(n) per function call and o(t) meaning the total number of trie nodes created. |
 | 18 | [209. Minimum Size Subarray Sum](python/0209-minimum-size-subarray-sum.py) | neighbour | 2026-09-30 | fail | `sliding-window` | O(n) time / O(1) space — grow and shrink window based on our condition |
-| 19 | [219. Contains Duplicate II](python/0219-contains-duplicate-ii.py) | neighbour | 2026-09-30 | clean | `sliding-window` | O(n) time / O(n) space — grow and shrink window based on our condition |
-| 20 | [226. Invert Binary Tree](python/0226-invert-binary-tree.py) | Blind 75 | 2026-10-04 | clean | `tree-dfs` | O(n) time / O(h) space — Every node in tree is visited and call stack for deepest node is stored in memory |
-| 21 | [230. Kth Smallest Element In A BST](python/0230-kth-smallest-element-in-a-bst.py) | Blind 75 | 2026-10-10 | hint | `tree-inorder-iterative` | O(n) time / O(h) space — Traversing tree in order |
-| 22 | [235. Lowest Common Ancestor of a Binary Search Tree](python/0235-lowest-common-ancestor-of-a-bst.py) | Blind 75 | 2026-10-07 | fail | `tree-dfs` | O(log(n)) time / O(1) space — Eliminating Half the search space at each point, resulting in logaritmic time complexity |
-| 23 | [424. Longest Repeating Character Replacement](python/0424-longest-repeating-character-replacement.py) | Blind 75 | 2026-09-08 | fail | `sliding-window` | O(n) time / O(1) space — Sliding window useful when we have a condition and we want to search contiguious values to satisfiy said condition |
-| 24 | [567. Permutation In String](python/0567-permutation-in-string.py) | neighbour | 2026-09-23 | fail | `sliding-window` | O(n) time / O(1) space — Sliding window to to find continguous substring to satisfy value but over a fixed window |
-| 25 | [658. Find K Closest Elements](python/0658-find-k-closest-elements.py) | neighbour | 2026-10-10 | fail | `tp-opposite` | O(n) time / O(1) space — Searching through input with fixed window |
-| 26 | [680. Valid Palindrome II](python/0680-valid-palindrome-ii.py) | neighbour | 2026-09-29 | hint | `tp-opposite` | O(n) time / O(1) space — one pass plus at most one rescan of the inner range |
-| 27 | [875. Koko Eating Bananas](python/0875-koko-eating-bananas.py) | neighbour | 2026-10-02 | fail | `bs-lower-bound` | O(piles * log(max(piles))) time / O(1) space - Binary search based off of known maximum that works |
-| 28 | [978. Longest Turbulent Subarray](python/0978-longest-turbulent-subarray.py) | neighbour | 2026-10-03 | fail | `sliding-window` | O(n) time / O(1) space - Sliding window moving pointers when subarray no longer valid |
+| 19 | [211. Design Add and Search Words Data Structure](python/0211-design-add-and-search-words-data-structure.py) | Blind 75 | 2026-10-11 | clean | `trie` | O(n) time / O(n) space — For Add, we are searching through n at worst case where n is size of trie, for search, worstcase all of trie serached |
+| 20 | [219. Contains Duplicate II](python/0219-contains-duplicate-ii.py) | neighbour | 2026-09-30 | clean | `sliding-window` | O(n) time / O(n) space — grow and shrink window based on our condition |
+| 21 | [226. Invert Binary Tree](python/0226-invert-binary-tree.py) | Blind 75 | 2026-10-04 | clean | `tree-dfs` | O(n) time / O(h) space — Every node in tree is visited and call stack for deepest node is stored in memory |
+| 22 | [230. Kth Smallest Element In A BST](python/0230-kth-smallest-element-in-a-bst.py) | Blind 75 | 2026-10-10 | hint | `tree-inorder-iterative` | O(n) time / O(h) space — Traversing tree in order |
+| 23 | [235. Lowest Common Ancestor of a Binary Search Tree](python/0235-lowest-common-ancestor-of-a-bst.py) | Blind 75 | 2026-10-07 | fail | `tree-dfs` | O(log(n)) time / O(1) space — Eliminating Half the search space at each point, resulting in logaritmic time complexity |
+| 24 | [347. Top K Frequent Elements](python/0347-top-k-frequent-elements.py) | Blind 75 | 2026-10-11 | fail | `heap-topk` | O(nlogk) time / O(n) space — heapify is linear and pushing and popping is log(n) so worst case, hashMap is n, for n items we do log(k) |
+| 25 | [424. Longest Repeating Character Replacement](python/0424-longest-repeating-character-replacement.py) | Blind 75 | 2026-09-08 | fail | `sliding-window` | O(n) time / O(1) space — Sliding window useful when we have a condition and we want to search contiguious values to satisfiy said condition |
+| 26 | [567. Permutation In String](python/0567-permutation-in-string.py) | neighbour | 2026-09-23 | fail | `sliding-window` | O(n) time / O(1) space — Sliding window to to find continguous substring to satisfy value but over a fixed window |
+| 27 | [658. Find K Closest Elements](python/0658-find-k-closest-elements.py) | neighbour | 2026-10-10 | fail | `tp-opposite` | O(n) time / O(1) space — Searching through input with fixed window |
+| 28 | [680. Valid Palindrome II](python/0680-valid-palindrome-ii.py) | neighbour | 2026-09-29 | hint | `tp-opposite` | O(n) time / O(1) space — one pass plus at most one rescan of the inner range |
+| 29 | [875. Koko Eating Bananas](python/0875-koko-eating-bananas.py) | neighbour | 2026-10-02 | fail | `bs-lower-bound` | O(piles * log(max(piles))) time / O(1) space - Binary search based off of known maximum that works |
+| 30 | [978. Longest Turbulent Subarray](python/0978-longest-turbulent-subarray.py) | neighbour | 2026-10-03 | fail | `sliding-window` | O(n) time / O(1) space - Sliding window moving pointers when subarray no longer valid |
