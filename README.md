@@ -6,7 +6,7 @@ on an expanding schedule against *neighbour* problems that share the skeleton.
 
 Conventions: [CONTRIBUTING.md](CONTRIBUTING.md) · Pattern templates: [templates/](templates/)
 
-**22 / 75 Blind 75 solved** · **8 neighbour problems** solved on the review ladder.
+**22 / 75 Blind 75 solved** · **9 neighbour problems** solved on the review ladder.
 
 | # | Problem | List | Solved | First pass | Skeleton | Complexity |
 |---|---|---|---|---|---|---|
@@ -33,10 +33,11 @@ Conventions: [CONTRIBUTING.md](CONTRIBUTING.md) · Pattern templates: [templates
 | 21 | [226. Invert Binary Tree](python/0226-invert-binary-tree.py) | Blind 75 | 2026-10-04 | clean | `tree-dfs` | O(n) time / O(h) space — Every node in tree is visited and call stack for deepest node is stored in memory |
 | 22 | [230. Kth Smallest Element In A BST](python/0230-kth-smallest-element-in-a-bst.py) | Blind 75 | 2026-10-10 | hint | `tree-inorder-iterative` | O(n) time / O(h) space — Traversing tree in order |
 | 23 | [235. Lowest Common Ancestor of a Binary Search Tree](python/0235-lowest-common-ancestor-of-a-bst.py) | Blind 75 | 2026-10-07 | fail | `tree-dfs` | O(log(n)) time / O(1) space — Eliminating Half the search space at each point, resulting in logaritmic time complexity |
-| 24 | [347. Top K Frequent Elements](python/0347-top-k-frequent-elements.py) | Blind 75 | 2026-10-11 | fail | `heap-topk` | O(nlogk) time / O(n) space — heapify is linear and pushing and popping is log(n) so worst case, hashMap is n, for n items we do log(k) |
-| 25 | [424. Longest Repeating Character Replacement](python/0424-longest-repeating-character-replacement.py) | Blind 75 | 2026-09-08 | fail | `sliding-window` | O(n) time / O(1) space — Sliding window useful when we have a condition and we want to search contiguious values to satisfiy said condition |
-| 26 | [567. Permutation In String](python/0567-permutation-in-string.py) | neighbour | 2026-09-23 | fail | `sliding-window` | O(n) time / O(1) space — Sliding window to to find continguous substring to satisfy value but over a fixed window |
-| 27 | [658. Find K Closest Elements](python/0658-find-k-closest-elements.py) | neighbour | 2026-10-10 | fail | `tp-opposite` | O(n) time / O(1) space — Searching through input with fixed window |
-| 28 | [680. Valid Palindrome II](python/0680-valid-palindrome-ii.py) | neighbour | 2026-09-29 | hint | `tp-opposite` | O(n) time / O(1) space — one pass plus at most one rescan of the inner range |
-| 29 | [875. Koko Eating Bananas](python/0875-koko-eating-bananas.py) | neighbour | 2026-10-02 | fail | `bs-lower-bound` | O(piles * log(max(piles))) time / O(1) space - Binary search based off of known maximum that works |
-| 30 | [978. Longest Turbulent Subarray](python/0978-longest-turbulent-subarray.py) | neighbour | 2026-10-03 | fail | `sliding-window` | O(n) time / O(1) space - Sliding window moving pointers when subarray no longer valid |
+| 24 | [239. Sliding Window Maximum](python/0239-sliding-window-maximum.py) | neighbour | 2026-10-12 | fail | `sliding-window` | O(n) time / O(k+n) space — Using a montonic queue to keep track off the current max indicies and avoiding recomputations by popping small added values |
+| 25 | [347. Top K Frequent Elements](python/0347-top-k-frequent-elements.py) | Blind 75 | 2026-10-11 | fail | `heap-topk` | O(nlogk) time / O(n) space — heapify is linear and pushing and popping is log(n) so worst case, hashMap is n, for n items we do log(k) |
+| 26 | [424. Longest Repeating Character Replacement](python/0424-longest-repeating-character-replacement.py) | Blind 75 | 2026-09-08 | fail | `sliding-window` | O(n) time / O(1) space — Sliding window useful when we have a condition and we want to search contiguious values to satisfiy said condition |
+| 27 | [567. Permutation In String](python/0567-permutation-in-string.py) | neighbour | 2026-09-23 | fail | `sliding-window` | O(n) time / O(1) space — Sliding window to to find continguous substring to satisfy value but over a fixed window |
+| 28 | [658. Find K Closest Elements](python/0658-find-k-closest-elements.py) | neighbour | 2026-10-10 | fail | `tp-opposite` | O(n) time / O(1) space — Searching through input with fixed window |
+| 29 | [680. Valid Palindrome II](python/0680-valid-palindrome-ii.py) | neighbour | 2026-09-29 | hint | `tp-opposite` | O(n) time / O(1) space — one pass plus at most one rescan of the inner range |
+| 30 | [875. Koko Eating Bananas](python/0875-koko-eating-bananas.py) | neighbour | 2026-10-02 | fail | `bs-lower-bound` | O(piles * log(max(piles))) time / O(1) space - Binary search based off of known maximum that works |
+| 31 | [978. Longest Turbulent Subarray](python/0978-longest-turbulent-subarray.py) | neighbour | 2026-10-03 | fail | `sliding-window` | O(n) time / O(1) space - Sliding window moving pointers when subarray no longer valid |
