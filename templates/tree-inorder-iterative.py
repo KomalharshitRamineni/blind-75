@@ -14,7 +14,7 @@ def tree_inorder_iterative(root):
 	
 		while cur:
 		
-			stack.append(cur.left)
+			stack.append(cur)
 			cur = cur.left
 		
 		cur = stack.pop() 

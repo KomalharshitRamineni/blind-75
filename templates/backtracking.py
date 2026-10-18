@@ -7,24 +7,24 @@ Trigger: the output is a list of things — subsets, permutations, combinations,
 
 def backtracking():
     def foo():
-        return True
+        return None
 
-    options = []
     res = []
     path = []
 
-    def dfs(start):
-        if foo(path):                  
+    def dfs(index, path):
+        if foo(index,path):                  
             res.append(path.copy())     #.copy() as actual path keeps changing
             return
-        if foo(start):                  # base case
+            
+        if not foo(index,path):                  # base case
             return
+        
+        path.append()
+        dfs(index,path)                          # Decison A
+        path.pop()
+        dfs(index+1,path)                        # Decision B
 
-        for k in range(start, len(options)):   # Of all options available
-            path.append(options[k])             #   choose
-            dfs(k + 1)                          #   explore
-            path.pop()                          #   un-choose
-
-    dfs(0)
+    dfs(0,[])
 
     return res

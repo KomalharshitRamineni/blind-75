@@ -17,7 +17,7 @@ def tree_bfs_levels(root):
 	
 		for i in range(levels):
 		
-			node = queue.pop()
+			node = queue.popleft()
 			
 			if node:
 			
