@@ -6,7 +6,7 @@ on an expanding schedule against *neighbour* problems that share the skeleton.
 
 Conventions: [CONTRIBUTING.md](CONTRIBUTING.md) · Pattern templates: [templates/](templates/)
 
-**27 / 75 Blind 75 solved** · **16 neighbour problems** solved on the review ladder.
+**27 / 75 Blind 75 solved** · **17 neighbour problems** solved on the review ladder.
 
 | # | Problem | List | Solved | First pass | Skeleton | Complexity |
 |---|---|---|---|---|---|---|
@@ -52,4 +52,5 @@ Conventions: [CONTRIBUTING.md](CONTRIBUTING.md) · Pattern templates: [templates
 | 40 | [658. Find K Closest Elements](python/0658-find-k-closest-elements.py) | neighbour | 2026-10-10 | fail | `tp-opposite` | O(n) time / O(1) space — Searching through input with fixed window |
 | 41 | [680. Valid Palindrome II](python/0680-valid-palindrome-ii.py) | neighbour | 2026-09-29 | hint | `tp-opposite` | O(n) time / O(1) space — one pass plus at most one rescan of the inner range |
 | 42 | [875. Koko Eating Bananas](python/0875-koko-eating-bananas.py) | neighbour | 2026-10-02 | fail | `bs-lower-bound` | O(piles * log(max(piles))) time / O(1) space - Binary search based off of known maximum that works |
-| 43 | [978. Longest Turbulent Subarray](python/0978-longest-turbulent-subarray.py) | neighbour | 2026-10-03 | fail | `sliding-window` | O(n) time / O(1) space - Sliding window moving pointers when subarray no longer valid |
+| 43 | [938. Range Sum Of BST](python/0938-range-sum-of-bst.py) | neighbour | 2026-10-20 | pass | `tree-dfs` | O(n)) time / O(h) space - Dfs, worst case whole tree is in range of serach space |
+| 44 | [978. Longest Turbulent Subarray](python/0978-longest-turbulent-subarray.py) | neighbour | 2026-10-03 | fail | `sliding-window` | O(n) time / O(1) space - Sliding window moving pointers when subarray no longer valid |
