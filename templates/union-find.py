@@ -1,7 +1,7 @@
 """
 union-find — path compression + union by size
 
-Trigger: connectivity queries as edges arrive · counting components · detecting the redundant edge · Kruskal's MST. Complexity: ~O(E · α(V)), effectively linear
+Trigger: undirected graphs only — connectivity queries as edges arrive · counting components · cycle detection / the redundant edge · Kruskal's MST. Never for a directed graph: `union` ignores direction, so a→b, c→b, a→c reads as a cycle when it isn't one (→ `topo-sort`). Complexity: ~O(E · α(V)), effectively linear
 """
 
 
