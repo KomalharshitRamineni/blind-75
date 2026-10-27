@@ -12,19 +12,19 @@ def backtracking():
     res = []
     path = []
 
-    def dfs(index, path):
-        if foo(index,path):                  
+    def dfs(index):
+        if foo(index):                  
             res.append(path.copy())     #.copy() as actual path keeps changing
             return
             
-        if not foo(index,path):                  # base case
+        if not foo(index):                  # base case
             return
         
         path.append()
-        dfs(index,path)                          # Decison A
+        dfs(index)                          # Decison A
         path.pop()
-        dfs(index+1,path)                        # Decision B
+        dfs(index+1)                        # Decision B
 
-    dfs(0,[])
+    dfs(0)
 
     return res
