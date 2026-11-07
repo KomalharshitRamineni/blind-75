@@ -1,6 +1,6 @@
 """
 344. Reverse String · https://leetcode.com/problems/reverse-string/
-2026-11-03 · clean · 4m · skeleton: tp-opposite
+2026-11-03 · 4m · skeleton: tp-opposite
 O(n) time / O(1) space — Traversing input only maintaining pointers
 """
 

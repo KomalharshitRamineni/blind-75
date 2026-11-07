@@ -1,6 +1,6 @@
 """
 39. Combination Sum · https://leetcode.com/problems/combination-sum/
-2026-10-13 · fail · 30m · skeleton: backtracking
+2026-10-13 · 30m · skeleton: backtracking
 O(2^{n}) time / O(n) space — Backtracking along a decision tree pruning branches
 """
 

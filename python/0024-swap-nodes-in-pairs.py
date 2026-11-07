@@ -1,6 +1,6 @@
 """
 24. Swap Nodes In Pairs · https://leetcode.com/problems/swap-nodes-in-pairs/
-2026-10-15 · fail · 30m · skeleton: ll-reverse
+2026-10-15 · 30m · skeleton: ll-reverse
 O(n) time / O(1) space — Only one node is ever held at one time in memory, therefore making it O(1) space complexity
 """
 

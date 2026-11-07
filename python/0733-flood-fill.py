@@ -1,6 +1,6 @@
 """
 733. Flood Fill · https://leetcode.com/problems/flood-fill/
-2026-11-02 · hint · 13m · skeleton: graph-bfs-grid
+2026-11-02 · 13m · skeleton: graph-bfs-grid
 O(mxn) time / O(mxn) space — Worst case traversing the whole board and storing in queue
 """
 

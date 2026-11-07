@@ -1,6 +1,6 @@
 """
-78. Subsets · https://leetcode.com/problems/subsets/description/
-2026-10-27 · clean · 12m · skeleton: backtracking
+78. Subsets · https://leetcode.com/problems/subsets/
+2026-10-27 · 12m · skeleton: backtracking
 O(2^{n}) time / O(n) space — 2^{n} being the size of the whole tree we are exploring and O(n) as the deepest node will be of length n
 """
 

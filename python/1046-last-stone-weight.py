@@ -1,6 +1,6 @@
 """
 1046. Last Stone Weight · https://leetcode.com/problems/last-stone-weight/
-2026-10-21 · clean · 10m · skeleton: heap-topk
+2026-10-21 · 10m · skeleton: heap-topk
 O(nlog(n)) time / O(n) space - Maintain maxHeap and then pop as required
 """
 

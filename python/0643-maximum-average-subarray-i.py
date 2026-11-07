@@ -1,6 +1,6 @@
 """
 643. Maximum Average Subarray I · https://leetcode.com/problems/maximum-average-subarray-i/
-2026-10-17 · fail · 15m · skeleton: sliding-window
+2026-10-17 · 15m · skeleton: sliding-window
 O(n) time / O(1) space — Sliding window, returning max of a function applied to a window
 """
 

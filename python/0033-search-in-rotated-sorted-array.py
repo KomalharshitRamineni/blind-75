@@ -1,6 +1,6 @@
 """
 33. Search in Rotated Sorted Array · https://leetcode.com/problems/search-in-rotated-sorted-array/
-2026-09-29 · clean · 23m · skeleton: bs-exact
+2026-09-29 · 23m · skeleton: bs-exact
 O(log n) time / O(1) space — one halving per iteration, no extra storage
 """
 

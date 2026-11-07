@@ -1,6 +1,6 @@
 """
 424. Longest Repeating Character Replacement · https://leetcode.com/problems/longest-repeating-character-replacement/
-2026-09-08 · fail · 30m · skeleton: sliding-window
+2026-09-08 · 30m · skeleton: sliding-window
 O(n) time / O(1) space — Sliding window useful when we have a condition and we want to search contiguious values to satisfiy said condition
 """
 

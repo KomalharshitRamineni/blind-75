@@ -1,6 +1,6 @@
 """
 207. Course Schedule · https://leetcode.com/problems/course-schedule/
-2026-10-21 · fail · 30m · skeleton: topo-sort
+2026-10-21 · 30m · skeleton: topo-sort
 O(V + E) time / O(V + E) space — We are looking at nodes that have no arrows pointed to them, then starting with those, iterating through graph to see if we can also bring every other node's in-degree down to 0 by removing the arrows of finished nodes.
 """
 

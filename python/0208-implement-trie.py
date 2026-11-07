@@ -1,7 +1,6 @@
- 
 """
 208. Implement Trie · https://leetcode.com/problems/implement-trie-prefix-tree/
-2026-10-10 · clean · 25m · skeleton: trie
+2026-10-10 · 25m · skeleton: trie
 O(n) time / O(t) space — O(n) per function call and o(t) meaning the total number of trie nodes created.
 """
 

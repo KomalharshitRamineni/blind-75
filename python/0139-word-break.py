@@ -1,6 +1,6 @@
 """
-139. Word Break · https://leetcode.com/problems/word-break
-2026-11-03 · fail · 30m · skeleton: dp-1d-topdown
+139. Word Break · https://leetcode.com/problems/word-break/
+2026-11-03 · 30m · skeleton: dp-1d-topdown
 O(n * w * t) time / O(n) space — Traversing string, looping through each word in dict, slicing string
 """
 

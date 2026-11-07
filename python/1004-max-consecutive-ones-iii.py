@@ -1,6 +1,6 @@
 """
 1004. Max Consecutive Ones III · https://leetcode.com/problems/max-consecutive-ones-iii/
-2026-10-27 · fail · 30m · skeleton: sliding-window
+2026-10-27 · 30m · skeleton: sliding-window
 O(n) time / O(1) space - Sliding window - ALWAYS KEEP ONE POINTER MOVING AT A FIXED RATE AND DON'T MOVE BOTH CONDITIONALY.
 """
 

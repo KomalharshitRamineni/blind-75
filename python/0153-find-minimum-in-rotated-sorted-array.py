@@ -1,6 +1,6 @@
 """
 153. Find Minimum in Rotated Sorted Array · https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
-2026-09-10 · fail · 30m · skeleton: bs-lower-bound
+2026-09-10 · 30m · skeleton: bs-lower-bound
 O(log(n)) time / O(1) space — binary search, find how to divide and conqure search space, based of mid point check
 """
 

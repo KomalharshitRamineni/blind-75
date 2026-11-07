@@ -1,6 +1,6 @@
 """
 261. Graph Valid Tree · https://neetcode.io/problems/valid-tree/question
-2026-10-20 · fail · 30m · skeleton: union-find
+2026-10-20 · 30m · skeleton: union-find
 O(V + (E * α(V))) time / O(V) space — Iterating through edges and for each edge, we are doing a union operation (α(V)) then building parents and rank is + O(V) and that is also only space.
 """
 

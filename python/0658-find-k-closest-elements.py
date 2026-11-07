@@ -1,6 +1,6 @@
 """
 658. Find K Closest Elements · https://leetcode.com/problems/find-k-closest-elements/
-2026-10-10 · fail · 20m · skeleton: tp-opposite
+2026-10-10 · 30m · skeleton: tp-opposite
 O(n) time / O(1) space — Searching through input with fixed window
 """
 

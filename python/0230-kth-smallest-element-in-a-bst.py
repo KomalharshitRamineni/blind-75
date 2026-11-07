@@ -1,6 +1,6 @@
 """
 230. Kth Smallest Element In A BST · https://leetcode.com/problems/kth-smallest-element-in-a-bst/
-2026-10-10 · hint · 30m · skeleton: tree-inorder-iterative
+2026-10-10 · 30m · skeleton: tree-inorder-iterative
 O(n) time / O(h) space — Traversing tree in order
 """
 

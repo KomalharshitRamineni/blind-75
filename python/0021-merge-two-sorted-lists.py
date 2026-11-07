@@ -1,6 +1,6 @@
 """
 21. Merge Two Sorted Lists · https://leetcode.com/problems/merge-two-sorted-lists/
-2026-10-03 · clean · 20m · skeleton: ll-dummy
+2026-10-03 · 20m · skeleton: ll-dummy
 O(n+m) time / O(1) space — Only one node is ever held at one time in memory, therefore making it O(1) space complexity
 """
 

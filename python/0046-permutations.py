@@ -1,6 +1,6 @@
 """
 46. Permutations · https://leetcode.com/problems/permutations/
-2026-11-01 · fail · 30m · skeleton: backtracking
+2026-11-01 · 30m · skeleton: backtracking
 O(n!*n) time / O(n!*n) space — Storing the recursive callstack, memory is same as time complexity
 """
 

@@ -1,6 +1,6 @@
 """
 121. Best Time To Buy and Sell Stock · https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-2026-09-06 · fail · 30m · skeleton: sliding-window
+2026-09-06 · 30m · skeleton: sliding-window
 O(n) time / O(1) space — since we need to preserve order we use sliding window and update pointers to fit solution requirments
 """
 

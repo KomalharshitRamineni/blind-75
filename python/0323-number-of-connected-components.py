@@ -1,6 +1,6 @@
 """
 323. Number Of Connected Components · https://neetcode.io/problems/count-connected-components/question
-2026-10-20 · fail · 30m · skeleton: union-find
+2026-10-20 · 30m · skeleton: union-find
 O(V + (E * α(V))) time / O(V) space — Iterating through edges and for each edge, we are doing a union operation (α(V)) then building parents and rank is + O(V) and that is also only space
 """
 

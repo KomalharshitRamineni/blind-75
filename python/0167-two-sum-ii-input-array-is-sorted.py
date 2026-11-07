@@ -1,6 +1,6 @@
 """
 167. Two Sum II Input Array Is Sorted · https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
-2026-09-18 · clean · 10m · skeleton: tp-opposite
+2026-09-18 · 10m · skeleton: tp-opposite
 O(n) time / O(1) space — one pass, pointers only ever converge
 """
 

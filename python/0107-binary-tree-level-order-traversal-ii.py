@@ -1,6 +1,6 @@
 """
 107. Binary Tree Level Order Traversal II · https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
-2026-10-18 · clean · 15m · skeleton: tree-bfs-levels
+2026-10-18 · 15m · skeleton: tree-bfs-levels
 O(n) time / O(n) space — Traversing whole tree and reversing level order traversal, worst case node wise, width of tree stored, all node.val stored in memory for output
 """
 

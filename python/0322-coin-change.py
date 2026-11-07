@@ -1,6 +1,6 @@
 """
 322. Coin Change · https://leetcode.com/problems/coin-change/
-2026-10-31 · fail · 30m · skeleton: dp-topdown
+2026-10-31 · 30m · skeleton: dp-topdown
 O(n*t) time / O(t) space — Complexity for a memoised dp-topdown is number of states x work per state
 """
 

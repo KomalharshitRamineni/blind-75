@@ -1,6 +1,6 @@
 """
 15. 3Sum · https://leetcode.com/problems/3sum/
-2026-09-04 · fail · 30m · skeleton: tp-opposite
+2026-09-04 · 30m · skeleton: tp-opposite
 O(n^2) time / O(1) space — Fix one value and doing two pointers opposite, while avoiding recomputes.
 """
 

@@ -1,6 +1,6 @@
 """
 637. Average Of Levels In Binary Tree · https://leetcode.com/problems/average-of-levels-in-binary-tree/
-2026-10-18 · clean · 10m · skeleton: tree-bfs-levels
+2026-10-18 · 10m · skeleton: tree-bfs-levels
 O(n) time / O(w) space — Traversing whole tree, worst case the width of the tree is stored in queue
 """
 

@@ -1,6 +1,6 @@
 """
 70. Climbing Stairs · https://leetcode.com/problems/climbing-stairs/
-2026-10-23 · fail · 30m · skeleton: dp-topdown
+2026-10-23 · 30m · skeleton: dp-topdown
 O(n) time / O(n) space — We are only every solving a sub problem once, caching every solved sub problem
 """
 

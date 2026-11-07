@@ -1,6 +1,6 @@
 """
 211. Design Add and Search Words Data Structure · https://leetcode.com/problems/design-add-and-search-words-data-structure/
-2026-10-11 · clean · 30m · skeleton: trie
+2026-10-11 · 30m · skeleton: trie
 O(n) time / O(n) space — For Add, we are searching through n at worst case where n is size of trie, for search, worstcase all of trie serached
 """
 

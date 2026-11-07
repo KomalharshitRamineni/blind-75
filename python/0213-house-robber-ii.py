@@ -1,6 +1,6 @@
 """
 213. House Robber II · https://leetcode.com/problems/house-robber-ii/
-2026-11-03 · fail · 30m · skeleton: dp-1d-bottomup
+2026-11-03 · 30m · skeleton: dp-1d-bottomup
 O(n) time / O(n/1) space — We go through our input and maintain a state space which can be optimised for constant memory
 """
 

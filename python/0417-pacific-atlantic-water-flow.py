@@ -1,6 +1,6 @@
 """
 417. Pacific Atlantic Water Flow · https://leetcode.com/problems/pacific-atlantic-water-flow/
-2026-10-16 · fail · 30m · skeleton: graph-bfs-grid
+2026-10-16 · 30m · skeleton: graph-bfs-grid
 O(m * n) time / O(m * n) space — Think of working towards a point instead of working out, avoids recomputed work
 """
 

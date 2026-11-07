@@ -1,6 +1,6 @@
 """
 111. Minimum Depth Of Binary Tree · https://leetcode.com/problems/minimum-depth-of-binary-tree/
-2026-10-18 · tfail · 12m · skeleton: tree-bfs-levels
+2026-10-18 · 12m · skeleton: tree-bfs-levels
 O(n) time / O(w) space — Traverse whole tree, worst case is the max width of the binary tree
 """
 

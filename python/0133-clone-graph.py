@@ -1,6 +1,6 @@
 """
 133. Clone Graph · https://leetcode.com/problems/clone-graph/
-2026-10-14 · fail · 30m · skeleton: graph-dfs-visited
+2026-10-14 · 30m · skeleton: graph-dfs-visited
 O(n) time / O(n) space — Visiting whole graph, storing clone mapping
 """
 

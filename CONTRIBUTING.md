@@ -10,13 +10,13 @@ to regenerate `README.md`, so keep the field order.
 ```python
 """
 125. Valid Palindrome · https://leetcode.com/problems/valid-palindrome/
-2026-09-01 · clean · 14m · skeleton: tp-opposite
+2026-09-01 · 14m · skeleton: tp-opposite
 O(n) time / O(1) space — bottleneck is the single two-pointer pass
 """
 ```
 
 Line 1: `<number>. <title> · <url>`
-Line 2: `<date> · clean|hint|fail · <mins> · skeleton: <template-name>`
+Line 2: `<date> · <mins> · skeleton: <template-name>`
 Line 3: the complexity line, copied from the `log.md` write-up.
 
 **Two lists live here.** Most files are Blind 75. The rest are *neighbours* — problems from
@@ -28,5 +28,5 @@ later. `README.md` tags which is which and counts them separately.
 **Do not commit solutions to a live online assessment or take-home** until that process is
 over — regardless of repo visibility.
 
-The full write-up (Cue / Key insight / What broke / Complexity / Template) lives in the
+The full write-up (Cue / Key Insight / First attempt / Complexity / Skeleton) lives in the
 private vault's `log.md`, not here.

@@ -1,6 +1,6 @@
 """
 18. 4Sum · https://leetcode.com/problems/4sum/
-2026-10-19 · clean · 30m · skeleton: tp-opposite
+2026-10-19 · 30m · skeleton: tp-opposite
 O(n^3) time / O(m) space — fix values and sort to reduce to two sum, avoid recomputing duplicates
 """
 

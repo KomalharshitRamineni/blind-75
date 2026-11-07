@@ -1,6 +1,6 @@
 """
 226. Invert Binary Tree · https://leetcode.com/problems/invert-binary-tree/
-2026-10-04 · clean · 10m · skeleton: tree-dfs
+2026-10-04 · 10m · skeleton: tree-dfs
 O(n) time / O(h) space — Every node in tree is visited and call stack for deepest node is stored in memory
 """
 

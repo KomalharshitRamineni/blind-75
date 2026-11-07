@@ -1,6 +1,6 @@
 """
 680. Valid Palindrome II · https://leetcode.com/problems/valid-palindrome-ii/
-2026-09-29 · hint · 30m · skeleton: tp-opposite
+2026-09-29 · 30m · skeleton: tp-opposite
 O(n) time / O(1) space — one pass plus at most one rescan of the inner range
 """
 

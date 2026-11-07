@@ -1,6 +1,6 @@
 """
 404. Sum Of Left Leaves · https://leetcode.com/problems/sum-of-left-leaves/
-2026-10-18 · clean · 15m · skeleton: tree-dfs
+2026-10-18 · 15m · skeleton: tree-dfs
 O(n) time / O(h) space — Traversing whole tree, worst case the height of the tree is stored in stack
 """
 

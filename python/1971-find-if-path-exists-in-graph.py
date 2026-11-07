@@ -1,6 +1,6 @@
 """
 1971. Find If Path Exists In Graph · https://leetcode.com/problems/find-if-path-exists-in-graph/
-2026-10-27 · clean · 10m · skeleton: graph-dfs-visited
+2026-10-27 · 10m · skeleton: graph-dfs-visited
 O(V + E) time / O(V + E) space - Worst case we are traversing whole graph and we store the whole graph in memory so that gives us V + E space complexity
 """
 

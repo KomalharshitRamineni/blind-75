@@ -1,6 +1,6 @@
 """
 79. Word Search · https://leetcode.com/problems/word-search/
-2026-10-14 · fail · 30m · skeleton: backtracking
+2026-10-14 · 30m · skeleton: backtracking
 O(m * n * 4^{n}) time / O(n) space — Matrix backtracking, dfs has complexity of decisions ^ {depth of call stack}
 """
 

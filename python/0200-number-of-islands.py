@@ -1,6 +1,6 @@
 """
 200. Number Of Islands · https://leetcode.com/problems/number-of-islands/
-2026-10-14 · clean · 12m · skeleton: graph-bfs-grid
+2026-10-14 · 12m · skeleton: graph-bfs-grid
 O(n * m) time / O(n * m) space — visiting every node in grid and worst case island size of grid
 """
 class Solution:

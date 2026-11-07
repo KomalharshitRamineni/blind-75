@@ -1,6 +1,6 @@
 """
 20. Valid Parentheses · https://leetcode.com/problems/valid-parentheses/
-2026-09-08 · clean · 20m · skeleton: plain matching stack
+2026-09-08 · 20m · skeleton: plain matching stack
 O(n) time / O(n) space — one pass; the stack holds up to n when the input is all openers
 """
 

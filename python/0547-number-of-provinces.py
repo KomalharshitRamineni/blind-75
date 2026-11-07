@@ -1,6 +1,6 @@
 """
-547. Number Of Provinces · https://leetcode.com/problems/number-of-provinces
-2026-11-03 · clean · 30m · skeleton: union-find
+547. Number Of Provinces · https://leetcode.com/problems/number-of-provinces/
+2026-11-03 · 30m · skeleton: union-find
 O(n) time O(n) / O(graph) space — union-find is constant amortised and we traverse all of input worst case, space is graph we buikld
 """
 

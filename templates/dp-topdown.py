@@ -17,11 +17,11 @@ def dp_topdown():
     def dp(subproblem,cache):
 
         if subproblem in cache:
-            return subproblem[cache]
+            return cache[subproblem]
 
         #other wise normal basecases for the problem
 
-        if base_case:
+        if base_case():
             return 
 
         #Branches for decisions

@@ -1,6 +1,6 @@
 """
 198. House Robber · https://leetcode.com/problems/house-robber/
-2026-09-31 · fail · 30m · skeleton: dp-topdown
+2026-10-31 · 30m · skeleton: dp-topdown
 O(n) time / O(n) space — Solves each subproblem once and worst case call stack is length n
 """
 

@@ -1,6 +1,6 @@
 """
 104. Maximum Depth Of Binary Tree · https://leetcode.com/problems/maximum-depth-of-binary-tree/
-2026-10-04 · fail · 30m · skeleton: tree-dfs
+2026-10-04 · 30m · skeleton: tree-dfs
 O(n) time / O(h) space — Every node in tree is visited and call stack for deepest node is stored in memory 
 """
 

@@ -1,6 +1,6 @@
 """
 875. Koko Eating Bananas · https://leetcode.com/problems/koko-eating-bananas/
-2026-10-02 · fail · 30m · skeleton: bs-lower-bound
+2026-10-02 · 30m · skeleton: bs-lower-bound
 O(piles * log(max(piles))) time / O(1) space - Binary search based off of known maximum that works
 """
 

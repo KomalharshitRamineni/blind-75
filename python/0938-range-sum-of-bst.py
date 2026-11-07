@@ -1,6 +1,6 @@
 """
 938. Range Sum Of BST · https://leetcode.com/problems/range-sum-of-bst/
-2026-10-20 · pass · 12m · skeleton: tree-dfs
+2026-10-20 · 12m · skeleton: tree-dfs
 O(n)) time / O(h) space - Dfs, worst case whole tree is in range of serach space
 """
 

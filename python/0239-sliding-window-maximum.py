@@ -1,6 +1,6 @@
 """
 239. Sliding Window Maximum · https://leetcode.com/problems/sliding-window-maximum/
-2026-10-12 · fail · 30m · skeleton: sliding-window
+2026-10-12 · 30m · skeleton: sliding-window
 O(n) time / O(k+n) space — Using a montonic queue to keep track off the current max indicies and avoiding recomputations by popping small added values
 """
 

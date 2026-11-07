@@ -1,6 +1,6 @@
 """
 92. Reverse Linked List II · https://leetcode.com/problems/reverse-linked-list-ii/
-2026-11-02 · fail · 30m · skeleton: ll-dummy
+2026-11-02 · 30m · skeleton: ll-dummy
 O(n) time / O(1) space — Traversing through list splitting and reversing, maintaining pointers
 """
 

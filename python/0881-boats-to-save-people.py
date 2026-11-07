@@ -1,6 +1,6 @@
 """
-881. Boats To Save People · http://leetcode.com/problems/boats-to-save-people/
-2026-10-23 · clean · 15m · skeleton: tp-opposite
+881. Boats To Save People · https://leetcode.com/problems/boats-to-save-people/
+2026-10-23 · 20m · skeleton: tp-opposite
 O(nlog(n)) time / O(1) space - Two pointers, give only two people per boat (Important constraint)
 """
 

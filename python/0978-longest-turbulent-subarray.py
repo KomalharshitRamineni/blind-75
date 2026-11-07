@@ -1,6 +1,6 @@
 """
 978. Longest Turbulent Subarray · https://leetcode.com/problems/longest-turbulent-subarray/
-2026-10-03 · fail · 30m · skeleton: sliding-window
+2026-10-03 · 30m · skeleton: sliding-window
 O(n) time / O(1) space - Sliding window moving pointers when subarray no longer valid
 """
 
