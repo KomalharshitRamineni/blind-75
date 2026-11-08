@@ -15,7 +15,7 @@ def union_find(n,edges):
 
         cur = a
 
-        while cur != parents[a]:
+        while cur != parents[cur]:
             parents[cur] = parents[parents[cur]]
             cur = parents[cur]
 
