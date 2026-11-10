@@ -6,7 +6,7 @@ on an expanding schedule against *neighbour* problems that share the skeleton.
 
 Conventions: [CONTRIBUTING.md](CONTRIBUTING.md) · Pattern templates: [templates/](templates/)
 
-**36 / 75 Blind 75 solved** · **33 neighbour problems** solved on the review ladder · **2 NeetCode problems** from the extra pattern blocks.
+**36 / 75 Blind 75 solved** · **34 neighbour problems** solved on the review ladder · **2 NeetCode problems** from the extra pattern blocks.
 
 | # | Problem | List | Solved | Skeleton | Complexity |
 |---|---|---|---|---|---|
@@ -79,5 +79,6 @@ Conventions: [CONTRIBUTING.md](CONTRIBUTING.md) · Pattern templates: [templates
 | 67 | [978. Longest Turbulent Subarray](python/0978-longest-turbulent-subarray.py) | neighbour | 2026-10-03 | `sliding-window` | O(n) time / O(1) space - Sliding window moving pointers when subarray no longer valid |
 | 68 | [1004. Max Consecutive Ones III](python/1004-max-consecutive-ones-iii.py) | neighbour | 2026-10-27 | `sliding-window` | O(n) time / O(1) space - Sliding window - ALWAYS KEEP ONE POINTER MOVING AT A FIXED RATE AND DON'T MOVE BOTH CONDITIONALY. |
 | 69 | [1046. Last Stone Weight](python/1046-last-stone-weight.py) | neighbour | 2026-10-21 | `heap-topk` | O(nlog(n)) time / O(n) space - Maintain maxHeap and then pop as required |
-| 70 | [1456. Maximum Number of Vowels In a Given Substring of Given Length](python/1456-maximum-number-of-vowels-in-a-given-substring-of-given-length.py) | neighbour | 2026-11-07 | `sliding-window` | O(n) time / O(1) space - Going through input size n and maintaining a count and using set for checks to keep time complexity constant |
-| 71 | [1971. Find If Path Exists In Graph](python/1971-find-if-path-exists-in-graph.py) | neighbour | 2026-10-27 | `graph-dfs-visited` | O(V + E) time / O(V + E) space - Worst case we are traversing whole graph and we store the whole graph in memory so that gives us V + E space complexity |
+| 70 | [1137. N-th Tribonacci Number](python/1137-n-th-tribonacci-number.py) | neighbour | 2026-11-10 | `dp-1d-bottomup` | O(n) time / O(1) space - Looping up to n, fixed extra memory |
+| 71 | [1456. Maximum Number of Vowels In a Given Substring of Given Length](python/1456-maximum-number-of-vowels-in-a-given-substring-of-given-length.py) | neighbour | 2026-11-07 | `sliding-window` | O(n) time / O(1) space - Going through input size n and maintaining a count and using set for checks to keep time complexity constant |
+| 72 | [1971. Find If Path Exists In Graph](python/1971-find-if-path-exists-in-graph.py) | neighbour | 2026-10-27 | `graph-dfs-visited` | O(V + E) time / O(V + E) space - Worst case we are traversing whole graph and we store the whole graph in memory so that gives us V + E space complexity |
