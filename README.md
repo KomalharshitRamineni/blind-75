@@ -6,7 +6,7 @@ on an expanding schedule against *neighbour* problems that share the skeleton.
 
 Conventions: [CONTRIBUTING.md](CONTRIBUTING.md) · Pattern templates: [templates/](templates/)
 
-**36 / 75 Blind 75 solved** · **34 neighbour problems** solved on the review ladder · **2 NeetCode problems** from the extra pattern blocks.
+**36 / 75 Blind 75 solved** · **35 neighbour problems** solved on the review ladder · **2 NeetCode problems** from the extra pattern blocks.
 
 | # | Problem | List | Solved | Skeleton | Complexity |
 |---|---|---|---|---|---|
@@ -61,24 +61,25 @@ Conventions: [CONTRIBUTING.md](CONTRIBUTING.md) · Pattern templates: [templates
 | 49 | [404. Sum Of Left Leaves](python/0404-sum-of-left-leaves.py) | neighbour | 2026-10-18 | `tree-dfs` | O(n) time / O(h) space — Traversing whole tree, worst case the height of the tree is stored in stack |
 | 50 | [417. Pacific Atlantic Water Flow](python/0417-pacific-atlantic-water-flow.py) | Blind 75 | 2026-10-16 | `graph-bfs-grid` | O(m * n) time / O(m * n) space — Think of working towards a point instead of working out, avoids recomputed work |
 | 51 | [424. Longest Repeating Character Replacement](python/0424-longest-repeating-character-replacement.py) | Blind 75 | 2026-09-08 | `sliding-window` | O(n) time / O(1) space — Sliding window useful when we have a condition and we want to search contiguious values to satisfiy said condition |
-| 52 | [509. Fibonacci Number](python/0509-fibonacci-number.py) | neighbour | 2026-11-07 | `dp` | O(n) time / O(1) space — Looping through values up to N re using comptued values |
-| 53 | [547. Number Of Provinces](python/0547-number-of-provinces.py) | neighbour | 2026-11-03 | `union-find` | O(n) time O(n) / O(graph) space — union-find is constant amortised and we traverse all of input worst case, space is graph we buikld |
-| 54 | [567. Permutation In String](python/0567-permutation-in-string.py) | neighbour | 2026-09-23 | `sliding-window` | O(n) time / O(1) space — Sliding window to to find continguous substring to satisfy value but over a fixed window |
-| 55 | [637. Average Of Levels In Binary Tree](python/0637-average-of-levels-in-binary-tree.py) | neighbour | 2026-10-18 | `tree-bfs-levels` | O(n) time / O(w) space — Traversing whole tree, worst case the width of the tree is stored in queue |
-| 56 | [643. Maximum Average Subarray I](python/0643-maximum-average-subarray-i.py) | neighbour | 2026-10-17 | `sliding-window` | O(n) time / O(1) space — Sliding window, returning max of a function applied to a window |
-| 57 | [658. Find K Closest Elements](python/0658-find-k-closest-elements.py) | neighbour | 2026-10-10 | `tp-opposite` | O(n) time / O(1) space — Searching through input with fixed window |
-| 58 | [680. Valid Palindrome II](python/0680-valid-palindrome-ii.py) | neighbour | 2026-09-29 | `tp-opposite` | O(n) time / O(1) space — one pass plus at most one rescan of the inner range |
-| 59 | [684. Redundant Connection](python/0684-redundant-connection.py) | neighbour | 2026-11-07 | `union-find` | O(E+V) time / O(V) space — find operation amortised is constant and we are looping through all edges performing union |
-| 60 | [733. Flood Fill](python/0733-flood-fill.py) | neighbour | 2026-11-02 | `graph-bfs-grid` | O(mxn) time / O(mxn) space — Worst case traversing the whole board and storing in queue |
-| 61 | [739. Daily Temperatures](python/0739-daily-temperatures.py) | NeetCode | 2026-11-09 | `montonic-stack` | O(n) time / O(n) space - Searching through n items and worst case popping n items = 2n -> O(n) space is res and stack = O(n) |
-| 62 | [875. Koko Eating Bananas](python/0875-koko-eating-bananas.py) | neighbour | 2026-10-02 | `bs-lower-bound` | O(piles * log(max(piles))) time / O(1) space - Binary search based off of known maximum that works |
-| 63 | [881. Boats To Save People](python/0881-boats-to-save-people.py) | neighbour | 2026-10-23 | `tp-opposite` | O(nlog(n)) time / O(1) space - Two pointers, give only two people per boat (Important constraint) |
-| 64 | [901. Online Stock Span](python/0901-online-stock-span.py) | NeetCode | 2026-11-09 | `monotonic-stack` | O(n) time / O(n) space - We add and pop at most n inputs, without popping or adding same input again |
-| 65 | [904. Fruit into baskets](python/0904-fruit-into-baskets.py) | neighbour | 2026-11-09 | `sliding-window` | O(n) time / O(1) space - We traverse through input and the max size of our basket is going to be 3, so known, therefore constant extra space |
-| 66 | [938. Range Sum Of BST](python/0938-range-sum-of-bst.py) | neighbour | 2026-10-20 | `tree-dfs` | O(n)) time / O(h) space - Dfs, worst case whole tree is in range of serach space |
-| 67 | [978. Longest Turbulent Subarray](python/0978-longest-turbulent-subarray.py) | neighbour | 2026-10-03 | `sliding-window` | O(n) time / O(1) space - Sliding window moving pointers when subarray no longer valid |
-| 68 | [1004. Max Consecutive Ones III](python/1004-max-consecutive-ones-iii.py) | neighbour | 2026-10-27 | `sliding-window` | O(n) time / O(1) space - Sliding window - ALWAYS KEEP ONE POINTER MOVING AT A FIXED RATE AND DON'T MOVE BOTH CONDITIONALY. |
-| 69 | [1046. Last Stone Weight](python/1046-last-stone-weight.py) | neighbour | 2026-10-21 | `heap-topk` | O(nlog(n)) time / O(n) space - Maintain maxHeap and then pop as required |
-| 70 | [1137. N-th Tribonacci Number](python/1137-n-th-tribonacci-number.py) | neighbour | 2026-11-10 | `dp-1d-bottomup` | O(n) time / O(1) space - Looping up to n, fixed extra memory |
-| 71 | [1456. Maximum Number of Vowels In a Given Substring of Given Length](python/1456-maximum-number-of-vowels-in-a-given-substring-of-given-length.py) | neighbour | 2026-11-07 | `sliding-window` | O(n) time / O(1) space - Going through input size n and maintaining a count and using set for checks to keep time complexity constant |
-| 72 | [1971. Find If Path Exists In Graph](python/1971-find-if-path-exists-in-graph.py) | neighbour | 2026-10-27 | `graph-dfs-visited` | O(V + E) time / O(V + E) space - Worst case we are traversing whole graph and we store the whole graph in memory so that gives us V + E space complexity |
+| 52 | [503. Next Greater Element](python/0503-next-greater-element-ii.py) | neighbour | 2026-11-10 | `mon0tonic-stack` | O(n) time / O(n) space — Iterate through array twice maintaining the same stack |
+| 53 | [509. Fibonacci Number](python/0509-fibonacci-number.py) | neighbour | 2026-11-07 | `dp` | O(n) time / O(1) space — Looping through values up to N re using comptued values |
+| 54 | [547. Number Of Provinces](python/0547-number-of-provinces.py) | neighbour | 2026-11-03 | `union-find` | O(n) time O(n) / O(graph) space — union-find is constant amortised and we traverse all of input worst case, space is graph we buikld |
+| 55 | [567. Permutation In String](python/0567-permutation-in-string.py) | neighbour | 2026-09-23 | `sliding-window` | O(n) time / O(1) space — Sliding window to to find continguous substring to satisfy value but over a fixed window |
+| 56 | [637. Average Of Levels In Binary Tree](python/0637-average-of-levels-in-binary-tree.py) | neighbour | 2026-10-18 | `tree-bfs-levels` | O(n) time / O(w) space — Traversing whole tree, worst case the width of the tree is stored in queue |
+| 57 | [643. Maximum Average Subarray I](python/0643-maximum-average-subarray-i.py) | neighbour | 2026-10-17 | `sliding-window` | O(n) time / O(1) space — Sliding window, returning max of a function applied to a window |
+| 58 | [658. Find K Closest Elements](python/0658-find-k-closest-elements.py) | neighbour | 2026-10-10 | `tp-opposite` | O(n) time / O(1) space — Searching through input with fixed window |
+| 59 | [680. Valid Palindrome II](python/0680-valid-palindrome-ii.py) | neighbour | 2026-09-29 | `tp-opposite` | O(n) time / O(1) space — one pass plus at most one rescan of the inner range |
+| 60 | [684. Redundant Connection](python/0684-redundant-connection.py) | neighbour | 2026-11-07 | `union-find` | O(E+V) time / O(V) space — find operation amortised is constant and we are looping through all edges performing union |
+| 61 | [733. Flood Fill](python/0733-flood-fill.py) | neighbour | 2026-11-02 | `graph-bfs-grid` | O(mxn) time / O(mxn) space — Worst case traversing the whole board and storing in queue |
+| 62 | [739. Daily Temperatures](python/0739-daily-temperatures.py) | NeetCode | 2026-11-09 | `montonic-stack` | O(n) time / O(n) space - Searching through n items and worst case popping n items = 2n -> O(n) space is res and stack = O(n) |
+| 63 | [875. Koko Eating Bananas](python/0875-koko-eating-bananas.py) | neighbour | 2026-10-02 | `bs-lower-bound` | O(piles * log(max(piles))) time / O(1) space - Binary search based off of known maximum that works |
+| 64 | [881. Boats To Save People](python/0881-boats-to-save-people.py) | neighbour | 2026-10-23 | `tp-opposite` | O(nlog(n)) time / O(1) space - Two pointers, give only two people per boat (Important constraint) |
+| 65 | [901. Online Stock Span](python/0901-online-stock-span.py) | NeetCode | 2026-11-09 | `monotonic-stack` | O(n) time / O(n) space - We add and pop at most n inputs, without popping or adding same input again |
+| 66 | [904. Fruit into baskets](python/0904-fruit-into-baskets.py) | neighbour | 2026-11-09 | `sliding-window` | O(n) time / O(1) space - We traverse through input and the max size of our basket is going to be 3, so known, therefore constant extra space |
+| 67 | [938. Range Sum Of BST](python/0938-range-sum-of-bst.py) | neighbour | 2026-10-20 | `tree-dfs` | O(n)) time / O(h) space - Dfs, worst case whole tree is in range of serach space |
+| 68 | [978. Longest Turbulent Subarray](python/0978-longest-turbulent-subarray.py) | neighbour | 2026-10-03 | `sliding-window` | O(n) time / O(1) space - Sliding window moving pointers when subarray no longer valid |
+| 69 | [1004. Max Consecutive Ones III](python/1004-max-consecutive-ones-iii.py) | neighbour | 2026-10-27 | `sliding-window` | O(n) time / O(1) space - Sliding window - ALWAYS KEEP ONE POINTER MOVING AT A FIXED RATE AND DON'T MOVE BOTH CONDITIONALY. |
+| 70 | [1046. Last Stone Weight](python/1046-last-stone-weight.py) | neighbour | 2026-10-21 | `heap-topk` | O(nlog(n)) time / O(n) space - Maintain maxHeap and then pop as required |
+| 71 | [1137. N-th Tribonacci Number](python/1137-n-th-tribonacci-number.py) | neighbour | 2026-11-10 | `dp-1d-bottomup` | O(n) time / O(1) space - Looping up to n, fixed extra memory |
+| 72 | [1456. Maximum Number of Vowels In a Given Substring of Given Length](python/1456-maximum-number-of-vowels-in-a-given-substring-of-given-length.py) | neighbour | 2026-11-07 | `sliding-window` | O(n) time / O(1) space - Going through input size n and maintaining a count and using set for checks to keep time complexity constant |
+| 73 | [1971. Find If Path Exists In Graph](python/1971-find-if-path-exists-in-graph.py) | neighbour | 2026-10-27 | `graph-dfs-visited` | O(V + E) time / O(V + E) space - Worst case we are traversing whole graph and we store the whole graph in memory so that gives us V + E space complexity |
