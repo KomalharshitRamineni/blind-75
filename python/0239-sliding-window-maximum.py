@@ -1,32 +1,34 @@
 """
 239. Sliding Window Maximum · https://leetcode.com/problems/sliding-window-maximum/
 2026-10-12 · 30m · skeleton: sliding-window
-O(n) time / O(k+n) space — Using a montonic queue to keep track off the current max indicies and avoiding recomputations by popping small added values
+O(n) time / O(k+n) space — Using a montonic queue to keep track off the max seen so far to avoid computing max sum for each window
 """
+
+from collections import deque
 
 class Solution:
     def maxSlidingWindow(self, nums: list[int], k: int) -> list[int]:
         
-
+        queue = deque()
         res = []
 
-        queue = collections.deque()
+        for i in range(k-1):
 
-        left, right = 0, 0
-
-        while right < len(nums):
-
-            while queue and nums[queue[-1]] < nums[right]:
+            while queue and nums[i] > queue[-1][0]:
                 queue.pop()
-            queue.append(right)
 
-            if left > queue[0]:
+            queue.append([nums[i], i])
+
+
+        for i in range(k-1,len(nums)):
+
+            if queue and queue[0][1] <= i-k:
                 queue.popleft()
 
-            if right + 1 >= k:
-                res.append(nums[queue[0]])
-                left += 1
+            while queue and nums[i] > queue[-1][0]:
+                queue.pop()
 
-            right += 1 
+            queue.append([nums[i], i])
+            res.append(queue[0][0])
 
         return res
