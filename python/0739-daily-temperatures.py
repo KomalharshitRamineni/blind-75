@@ -1,6 +1,6 @@
 """
 739. Daily Temperatures · https://leetcode.com/problems/daily-temperatures/
-2026-11-09 · 30m · skeleton: montonic-stack
+2026-11-09 · 30m · skeleton: monotonic-stack
 O(n) time / O(n) space - Searching through n items and worst case popping n items = 2n -> O(n) space is res and stack = O(n)
 """
 

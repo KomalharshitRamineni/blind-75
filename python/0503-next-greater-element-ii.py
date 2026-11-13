@@ -1,6 +1,6 @@
 """
 503. Next Greater Element · https://leetcode.com/problems/next-greater-element-ii/
-2026-11-10 · 30m · skeleton: mon0tonic-stack
+2026-11-10 · 30m · skeleton: monotonic-stack
 O(n) time / O(n) space — Iterate through array twice maintaining the same stack
 """
 
