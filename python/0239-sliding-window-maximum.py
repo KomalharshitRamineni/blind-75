@@ -1,6 +1,6 @@
 """
 239. Sliding Window Maximum · https://leetcode.com/problems/sliding-window-maximum/
-2026-10-12 · 30m · skeleton: sliding-window
+2026-11-12 · 30m · skeleton: monotonic-deque
 O(n) time / O(k+n) space — Using a montonic queue to keep track off the max seen so far to avoid computing max sum for each window
 """
 
