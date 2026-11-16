@@ -6,7 +6,7 @@ on an expanding schedule against *neighbour* problems that share the skeleton.
 
 Conventions: [CONTRIBUTING.md](CONTRIBUTING.md) · Pattern templates: [templates/](templates/)
 
-**36 / 75 Blind 75 solved** · **38 neighbour problems** solved on the review ladder · **5 NeetCode problems** from the extra pattern blocks.
+**36 / 75 Blind 75 solved** · **39 neighbour problems** solved on the review ladder · **5 NeetCode problems** from the extra pattern blocks.
 
 | # | Problem | List | Solved | Skeleton | Complexity |
 |---|---|---|---|---|---|
@@ -87,5 +87,6 @@ Conventions: [CONTRIBUTING.md](CONTRIBUTING.md) · Pattern templates: [templates
 | 75 | [1137. N-th Tribonacci Number](python/1137-n-th-tribonacci-number.py) | neighbour | 2026-11-10 | `dp-1d-bottomup` | O(n) time / O(1) space - Looping up to n, fixed extra memory |
 | 76 | [1438. Longest Continuous Subarray With Absolute Diff Less Than Or Equal To Limit](python/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.py) | NeetCode | 2026-11-13 | `monotonic-deque` | O(n) time / O(n) space - each element popped and pushed at most once twice so 2n -> O(n) |
 | 77 | [1456. Maximum Number of Vowels In a Given Substring of Given Length](python/1456-maximum-number-of-vowels-in-a-given-substring-of-given-length.py) | neighbour | 2026-11-07 | `sliding-window` | O(n) time / O(1) space - Going through input size n and maintaining a count and using set for checks to keep time complexity constant |
-| 78 | [1696. Jump Game VI](python/1696-jump-game-vi.py) | NeetCode | 2026-11-14 | `dp, monotonic-deque` | O(n) time / O(n + k) space - Coming up with the dp solution and then understanding that we only care about max seen in window k. |
-| 79 | [1971. Find If Path Exists In Graph](python/1971-find-if-path-exists-in-graph.py) | neighbour | 2026-10-27 | `graph-dfs-visited` | O(V + E) time / O(V + E) space - Worst case we are traversing whole graph and we store the whole graph in memory so that gives us V + E space complexity |
+| 78 | [1493. Longest Subarray of 1's After Deleting One Element](python/1493-longest-subarray-of-1's-after-deleting-one-element.py) | neighbour | 2026-11-16 | `sliding-window` | O(n) time / O(1) space - Going through the input and maintaining a flag of whether we deleted an elent or not and shrinking to the index after we gain back that operation |
+| 79 | [1696. Jump Game VI](python/1696-jump-game-vi.py) | NeetCode | 2026-11-14 | `dp, monotonic-deque` | O(n) time / O(n + k) space - Coming up with the dp solution and then understanding that we only care about max seen in window k. |
+| 80 | [1971. Find If Path Exists In Graph](python/1971-find-if-path-exists-in-graph.py) | neighbour | 2026-10-27 | `graph-dfs-visited` | O(V + E) time / O(V + E) space - Worst case we are traversing whole graph and we store the whole graph in memory so that gives us V + E space complexity |
