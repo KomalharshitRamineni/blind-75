@@ -1,7 +1,7 @@
 """
 11. Container With Most Water · https://leetcode.com/problems/container-with-most-water/
 2026-09-05 · 30m · skeleton: tp-opposite
-O(n) time / O(1) space — Adjusting pointers to elimnate search space as adjusting means we computed best in the given space/
+O(n) time / O(1) space — Adjusting pointers to eliminate search space as adjusting means we computed best in the given space/
 """
 
 

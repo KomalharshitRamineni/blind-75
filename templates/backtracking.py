@@ -6,7 +6,10 @@ Trigger: the output is a list of things — subsets, permutations, combinations,
 
 
 def backtracking():
-    def foo():
+    def foo(index):                     # success: is path a full answer?
+        return None
+
+    def base_case(index):               # dead end: stop here?
         return None
 
     res = []
@@ -17,10 +20,10 @@ def backtracking():
             res.append(path.copy())     #.copy() as actual path keeps changing
             return
             
-        if not foo(index):                  # base case
+        if base_case(index):                # base case
             return
         
-        path.append()
+        path.append(index)                  # choose: this step's choice
         dfs(index)                          # Decison A
         path.pop()
         dfs(index+1)                        # Decision B
